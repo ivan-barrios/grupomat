@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 
 const layout = ({ children }) => {
     return (
-      <div className="">
+      <div className="w-full">
         <Navbar />
         {children}
         <Footer />
