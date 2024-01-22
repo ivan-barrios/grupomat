@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Font */
+@layer base {
+    @font-face {
+        font-family: "Nexa";
+        src: url("/font/nexa-bold.otf") format("opentype");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Nexa";
+        src: url("/font/nexa-light.otf") format("opentype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+/* Buttons Style */
+.dropShadowBtn {
+    box-shadow: 0px 4px 35px 0px #FFF;
+}
+
+.btn {
+    @apply bg-white text-black rounded-[15px] dropShadowBtn px-6 py-4 uppercase font-bold
+}
+
+/* Bg gradient */
+.gradient {
+    @apply bg-[#505987] blur-[50px] xs:blur-[75px] sm:blur-[100px]
+}

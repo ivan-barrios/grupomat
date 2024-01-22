@@ -23,7 +23,7 @@ const DesktopNav = ({ links }) => {
       </ul>
       <div className="md:flex gap-8 items-center hidden">
         <DropdownMenu>
-          <DropdownMenuTrigger>ES ^</DropdownMenuTrigger>
+          <DropdownMenuTrigger className="font-bold">ES ^</DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>Lenguaje</DropdownMenuLabel>
             <DropdownMenuSeparator />
@@ -31,7 +31,7 @@ const DesktopNav = ({ links }) => {
             <DropdownMenuItem>English</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        <button className="uppercase font-semibold hidden md:block border-2 p-2 rounded-[15px]">
+        <button className="font-semibold hidden md:block border-2 p-2 rounded-[15px]">
           <Link href="/#contacto">Contactanos</Link>
         </button>
       </div>

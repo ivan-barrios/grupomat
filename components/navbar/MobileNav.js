@@ -19,7 +19,7 @@ const MobileNav = ({ links }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden z-50">
       {menuOpen ? (
         <Image
           src={close}
@@ -40,7 +40,7 @@ const MobileNav = ({ links }) => {
         />
       )}
       <div
-        className={`bg-black fixed z-50 h-[calc(100vh-80px)] top-[80px] w-screen md:hidden text-white ${
+        className={`bg-black fixed z-50 h-[calc(100vh-80px)] top-[80px] pt-12 w-screen md:hidden text-white ${
           menuOpen ? "left-0" : "-left-full"
         } transition-all duration-100 flex flex-col items-center border-t-2 border-black`}
       >
@@ -59,7 +59,9 @@ const MobileNav = ({ links }) => {
           className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center"
         >
           <DropdownMenu>
-            <DropdownMenuTrigger>ES ^</DropdownMenuTrigger>
+            <DropdownMenuTrigger className="font-bold">
+              ES ^
+            </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuLabel>Lenguaje</DropdownMenuLabel>
               <DropdownMenuSeparator />
@@ -70,7 +72,7 @@ const MobileNav = ({ links }) => {
         </div>
         <button
           onClick={() => setMenuOpen(false)}
-          className="uppercase font-semibold border-2 border-white py-2 px-4 rounded-[15px] mt-8 text-2xl"
+          className="font-semibold border-2 border-white py-2 px-4 rounded-[15px] mt-8 text-2xl"
         >
           <Link href="/#contacto">Contactanos</Link>
         </button>
