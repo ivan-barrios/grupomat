@@ -22,11 +22,20 @@ module.exports = {
       },
       screens: {
         xs: "450px",
+        onetime: "300px",
       },
       fontFamily: {
         nexa: ["Nexa", "Inter", "sans-serif"],
       },
       keyframes: {
+        "loop-scrollmd": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-50% - 4rem))" },
+        },
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-50% - 0.5rem))" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -37,6 +46,8 @@ module.exports = {
         },
       },
       animation: {
+        "loop-scrollmd": "loop-scrollmd 20s linear infinite",
+        "loop-scroll": "loop-scroll 10s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },

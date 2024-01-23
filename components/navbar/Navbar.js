@@ -29,11 +29,11 @@ const links = [
     label: "Nosotros",
   },
   {
-    href: "/#servicios",
+    href: "/#services",
     label: "Servicios",
   },
   {
-    href: "/#testimonios",
+    href: "/#testimonials",
     label: "Testimonios",
   },
 ];
