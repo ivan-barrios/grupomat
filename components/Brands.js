@@ -16,7 +16,7 @@ const Brands = () => {
   return (
     <section className="max-w-[1200px] w-full overflow-hidden relative mt-[30px] lg:mt-[150px] z-40">
       <p className="text-[16px] text-white text-center font-bold pb-2">
-        Confiado Por Estas Empresas
+        Confiados Por Estas Empresas
       </p>
       <div className="bg-gradient-to-r from-black from-0% to-20%  to-transparent absolute left-0 h-full w-full z-40"></div>
       <div className="bg-gradient-to-l from-black from-0% to-20%  to-transparent absolute right-0 h-full w-full z-40"></div>
@@ -37,7 +37,7 @@ const Brands = () => {
             src={brand}
             alt="brand"
             width={120}
-            height={48}
+            height={80}
             className="object-contain max-h-[80px]"
           />
         ))}
