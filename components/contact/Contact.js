@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contacto"
-      className="scroll-m-[120px] text-white w-full max-w-[1200px] mt-[120px]"
+      className="scroll-m-[120px] text-white w-full max-w-[1200px] mt-[60px] lg:mt-[120px]"
     >
       <div className="card w-full flex flex-col gap-[27px] items-center px-4 py-8 md:p-12">
         <Subtitle text="CONTACTANOS" />
