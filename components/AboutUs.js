@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <section
       id="nosotros"
-      className="text-white z-40 flex flex-col items-center lg:flex-row lg:justify-between mt-[60px] lg:mt-[120px] w-full max-w-[1200px]"
+      className="text-white z-40 flex flex-col items-center lg:flex-row lg:justify-between mt-[60px] lg:mt-[120px] w-full max-w-[1200px] scroll-m-[120px]"
     >
       <Image
         src={rocket}

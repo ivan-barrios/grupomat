@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="text-white w-full max-w-[1200px] z-40 mt-[80px] lg:mt-[120px] relative"
+      className="text-white w-full max-w-[1200px] z-40 mt-[80px] lg:mt-[120px] relative scroll-m-[120px]"
     >
       <div className="flex flex-col gap-8 items-center w-full">
         <div className="w-full flex flex-col items-center">
