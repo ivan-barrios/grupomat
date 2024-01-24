@@ -4,10 +4,11 @@ import Subtitle from "../Subtitle";
 import ServicesCarousel from "./ServicesCarousel";
 import Image from "next/image";
 import abstractServices from "@/public/abstractServices.png";
-import { NextIntlClientProvider, useTranslations } from "next-intl";
 
-const Services = () => {
-  const t = useTranslations("services");
+import { getScopedI18n } from "@/locales/server";
+
+const Services = async () => {
+  const t = await getScopedI18n("services");
 
   return (
     <section
@@ -19,9 +20,7 @@ const Services = () => {
           <Title text={t("title")} />
           <Subtitle text={t("subtitle")} />
         </div>
-        <NextIntlClientProvider>
-          <ServicesCarousel />
-        </NextIntlClientProvider>
+        <ServicesCarousel />
       </div>
       <div className="absolute pt-4 z-20">
         <div className="absolute w-[75px] h-full left-0 top-0 bg-gradient-to-r from-black to-transparent" />

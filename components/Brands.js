@@ -12,10 +12,11 @@ import {
   mendozabr,
   perdriel,
 } from "@/public/brands/index.js";
-import { useTranslations } from "next-intl";
 
-const Brands = () => {
-  const t = useTranslations("brands");
+import { getScopedI18n } from "@/locales/server";
+
+const Brands = async () => {
+  const t = await getScopedI18n("brands");
 
   return (
     <section className="max-w-[1200px] w-full overflow-hidden relative mt-[30px] lg:mt-[150px] z-40">

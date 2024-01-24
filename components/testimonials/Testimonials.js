@@ -2,10 +2,10 @@ import React from "react";
 import Title from "../Title";
 import Subtitle from "../Subtitle";
 import TestimonialsCarousel from "./TestimonialsCarousel";
-import { NextIntlClientProvider, useTranslations } from "next-intl";
+import { getScopedI18n } from "@/locales/server";
 
-const Testimonials = () => {
-  const t = useTranslations("testimonials");
+const Testimonials = async () => {
+  const t = await getScopedI18n("testimonials");
 
   return (
     <section
@@ -17,9 +17,7 @@ const Testimonials = () => {
           <Title text={t("title")} />
           <Subtitle text={t("subtitle")} />
         </div>
-        <NextIntlClientProvider>
-          <TestimonialsCarousel />
-        </NextIntlClientProvider>
+        <TestimonialsCarousel />
       </div>
     </section>
   );

@@ -5,10 +5,10 @@ import linkedin from "@/public/icons/linkedin.png";
 import Link from "next/link";
 import whatsapp from "@/public/icons/whatsapp.png";
 
-import { useTranslations } from "next-intl";
+import { getScopedI18n } from "@/locales/server";
 
-const Footer = () => {
-  const t = useTranslations("footer");
+const Footer = async () => {
+  const t = await getScopedI18n("footer");
 
   return (
     <footer className="w-full z-40 flex justify-center pb-8 mt-[80px] px-[20px] md:px-[120px]">

@@ -207,7 +207,12 @@ const ContactForm = ({
         />
         <button
           type="submit"
-          className="btn max-sm:!text-sm hover:scale-[1.1] transition-all duration-100"
+          className={`btn max-sm:!text-sm hover:scale-[1.1] transition-all duration-100`}
+          onClick={() => {
+            toast.loading("Enviando Mensaje", {
+              duration: 1500,
+            });
+          }}
         >
           {send}
         </button>

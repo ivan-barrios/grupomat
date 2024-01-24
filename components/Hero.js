@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import abstract from "@/public/abstractHero.svg";
 
-import { useTranslations } from "next-intl";
+import { getScopedI18n } from "@/locales/server";
 
-const Hero = () => {
-  const t = useTranslations("hero");
+const Hero = async () => {
+  const t = await getScopedI18n("hero");
 
   return (
     <section className="mt-[80px] pt-[50px] sm:pt-[70px] lg:pt-[120px] pb-12 text-white w-full max-w-[1200px] flex flex-col justify-center items-center relative">

@@ -2,10 +2,10 @@ import Image from "next/image";
 import rocket from "@/public/rocket.png";
 import Title from "./Title";
 import Subtitle from "./Subtitle";
-import { useTranslations } from "next-intl";
+import { getScopedI18n } from "@/locales/server";
 
-const AboutUs = () => {
-  const t = useTranslations("aboutus");
+const AboutUs = async () => {
+  const t = await getScopedI18n("aboutus");
 
   return (
     <section

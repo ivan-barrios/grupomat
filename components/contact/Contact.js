@@ -1,10 +1,11 @@
 import Subtitle from "../Subtitle";
 import ContactForm from "./ContactForm";
 
-import { useTranslations } from "next-intl";
+import { getScopedI18n } from "@/locales/server";
 
-const Contact = () => {
-  const t = useTranslations("contactus");
+const Contact = async () => {
+  const t = await getScopedI18n("contactus");
+
   return (
     <section
       id="contacto"

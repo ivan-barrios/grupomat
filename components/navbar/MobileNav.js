@@ -14,11 +14,13 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import LanguageOption from "../LanguageOption";
 import whatsapp from "@/public/icons/whatsapp.png";
+import LocaleSwitcherM from "./LocaleSwitcherM";
 
-const MobileNav = ({ links, locale }) => {
+const MobileNav = ({ links, us, services, testimonials, contact }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const linkslayers = [us, services, testimonials];
 
   return (
     <div className="md:hidden z-50">
@@ -41,49 +43,32 @@ const MobileNav = ({ links, locale }) => {
           onClick={() => setMenuOpen(!menuOpen)}
         />
       )}
+      {/*  */}
       <div
         className={`bg-black fixed z-50 h-[calc(100vh-80px)] top-[80px] pt-12 w-screen md:hidden text-white ${
           menuOpen ? "left-0" : "-left-full"
         } transition-all duration-100 flex flex-col items-center border-t-2 border-black`}
       >
-        {links.map((link) => (
+        {links.map((link, i) => (
           <Link
             onClick={() => setMenuOpen(false)}
             key={link.href}
             href={link.href}
             className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center"
           >
-            {locale === "es" ? link.nombre : link.name}
+            {linkslayers[i]}
           </Link>
         ))}
-        <div
-          onClick={() => setMenuOpen(false)}
-          className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center"
-        >
-          <DropdownMenu>
-            <DropdownMenuTrigger className="font-bold uppercase">
-              {locale}
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuLabel>Lenguaje</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <LanguageOption language="Español" willLocale="es" />
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <LanguageOption language="English" willLocale="en" />
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+        <div className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center">
+          <LocaleSwitcherM />
+          <button
+            className="font-semibold border-2 border-white py-2 px-4 rounded-[15px] mt-8 text-2xl"
+            onClick={() => setMenuOpen(false)}
+          >
+            <Link href="/#contacto">{contact}</Link>
+          </button>
         </div>
-        <button
-          onClick={() => setMenuOpen(false)}
-          className="font-semibold border-2 border-white py-2 px-4 rounded-[15px] mt-8 text-2xl"
-        >
-          <Link href="/#contacto">
-            {locale === "es" ? "Contactanos" : "Contact Us"}
-          </Link>
-        </button>
+
         <div className="absolute bottom-0 w-full flex justify-center gap-4 py-8">
           <Link
             href="https://www.instagram.com/grupomatagency/"
