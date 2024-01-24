@@ -5,6 +5,7 @@ import googleads from "@/public/icons/googleads.png";
 import handshake from "@/public/icons/handshake.png";
 import art from "@/public/icons/art.png";
 import brush from "@/public/icons/brush.png";
+import render from "@/public/icons/render.png";
 
 export const services = [
   {
@@ -69,5 +70,14 @@ export const services = [
     descripcion:
       "Cautivamos con diseño. Desde logotipos hasta materiales publicitarios, creamos elementos visuales únicos que resaltan tu marca con creatividad y estilo.",
     icon: brush,
+  },
+  {
+    title: "Renders",
+    description:
+      "We have a specialized rendering team that creates high-quality images, bringing your projects to life before they are built.",
+    titulo: "Renders",
+    descripcion:
+      "Contamos con un equipo especializado en renderización, que crea imágenes de alta calidad que dan vida a tus proyectos antes de que se construyan.",
+    icon: render,
   },
 ];

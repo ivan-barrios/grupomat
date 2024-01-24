@@ -3,6 +3,7 @@ import Image from "next/image";
 import instagram from "@/public/icons/instagram.png";
 import linkedin from "@/public/icons/linkedin.png";
 import Link from "next/link";
+import whatsapp from "@/public/icons/whatsapp.png";
 
 import { useTranslations } from "next-intl";
 
@@ -20,6 +21,7 @@ const Footer = () => {
           <Link
             href="https://www.instagram.com/grupomatagency/"
             target="_blank"
+            className="hover:scale-[1.1] transition-all duration-100"
           >
             <Image
               src={instagram}
@@ -29,8 +31,17 @@ const Footer = () => {
             />
           </Link>
           <Link
+            href="https://wa.link/i57lkq"
+            target="_blank"
+            className="hover:scale-[1.1] transition-all duration-100"
+          >
+            <Image src={whatsapp} alt="Whatsapp icon" width={62} height={63} />
+          </Link>
+
+          <Link
             href="https://www.linkedin.com/company/grupo-mat-realestate/"
             target="_blank"
+            className="hover:scale-[1.1] transition-all duration-100"
           >
             <Image src={linkedin} alt="Instagram Link" width={52} height={52} />
           </Link>

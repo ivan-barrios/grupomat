@@ -17,7 +17,10 @@ const Hero = () => {
         <p className="text-center text-lg sm:text-xl lg:text-2xl z-40">
           {t("subtitle")}
         </p>
-        <Link href="/#services" className="btn z-40">
+        <Link
+          href="/#services"
+          className="btn z-40 hover:scale-[1.1] transition-all duration-100"
+        >
           {t("cta")}
         </Link>
         <Image

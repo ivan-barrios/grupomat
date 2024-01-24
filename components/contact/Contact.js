@@ -17,9 +17,12 @@ const Contact = () => {
         <ContactForm
           name={t("fields.name")}
           email={t("fields.email")}
+          phone={t("fields.phone")}
           subject={t("fields.subject")}
           message={t("fields.message")}
           send={t("fields.send")}
+          success={t("success")}
+          label={t("label")}
         />
       </div>
     </section>

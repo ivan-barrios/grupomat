@@ -40,7 +40,7 @@ const DesktopNav = ({ links, locale }) => {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        <button className="font-semibold hidden md:block border-2 p-2 rounded-[15px]">
+        <button className="font-semibold hidden md:block border-2 p-2 rounded-[15px] hover:scale-[1.1] transition-all duration-100">
           <Link href="/#contacto">
             {locale === "es" ? "Contactanos" : "Contact Us"}
           </Link>

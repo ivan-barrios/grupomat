@@ -15,6 +15,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import LanguageOption from "../LanguageOption";
+import whatsapp from "@/public/icons/whatsapp.png";
 
 const MobileNav = ({ links, locale }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -94,6 +95,13 @@ const MobileNav = ({ links, locale }) => {
               width={62}
               height={63}
             />
+          </Link>
+          <Link
+            href="https://wa.link/i57lkq"
+            target="_blank"
+            className="hover:scale-[1.1] transition-all duration-100"
+          >
+            <Image src={whatsapp} alt="Whatsapp icon" width={62} height={63} />
           </Link>
           <Link
             href="https://www.linkedin.com/company/grupo-mat-realestate/"

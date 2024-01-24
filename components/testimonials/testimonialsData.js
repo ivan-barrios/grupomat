@@ -7,7 +7,7 @@ export const testimonials = [
   {
     name: "Manuel Manese",
     palabras:
-      "Son un equipo bárbaro, muy responsable, muy dedicado, que planifican cada uno de los pasos, que van ajustando la estrategia en relación a cada uno de los objetivos que nos planteamo y me ha permitido posicionarme muy bien dentro del mercado inmobiliario de la ciudad de La Plata.",
+      "Son un equipo bárbaro, muy responsable, muy dedicado, que planifican cada uno de los pasos, que van ajustando la estrategia en relación a cada uno de los objetivos que nos planteamos y me ha permitido posicionarme muy bien dentro del mercado inmobiliario de la ciudad de La Plata.",
     words:
       "They are a great team, very responsible, dedicated, planning each step, adjusting the strategy in relation to each of the objectives we set. It has allowed me to position myself very well in the real estate market of the city of La Plata.",
     profilePicture: manese,
