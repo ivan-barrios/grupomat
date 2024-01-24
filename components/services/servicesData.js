@@ -47,10 +47,10 @@ export const services = [
   {
     title: "Branding",
     description:
-      "Creamos una identidad e imagen única para tu marca. Trabajamos en el diseño, la identidad y la comunicación tanto para tu empresa como para un desarrollo en particular.",
+      "We create a unique identity and image for your brand. We work on design, identity, and communication for both your company and specific projects.",
     titulo: "Branding",
     descripcion:
-      "We create a unique identity and image for your brand. We work on design, identity, and communication for both your company and specific projects.",
+      "Creamos una identidad e imagen única para tu marca. Trabajamos en el diseño, la identidad y la comunicación tanto para tu empresa como para un desarrollo en particular.",
     icon: art,
   },
   {
