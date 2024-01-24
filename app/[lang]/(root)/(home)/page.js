@@ -5,7 +5,7 @@ import Services from "@/components/services/Services";
 import Brands from "@/components/Brands";
 import Contact from "@/components/contact/Contact";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="px-[20px] md:px-[120px] bg-black">
       <div className="flex flex-col items-center w-full">

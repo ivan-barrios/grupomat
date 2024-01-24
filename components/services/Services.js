@@ -4,8 +4,11 @@ import Subtitle from "../Subtitle";
 import ServicesCarousel from "./ServicesCarousel";
 import Image from "next/image";
 import abstractServices from "@/public/abstractServices.png";
+import { NextIntlClientProvider, useTranslations } from "next-intl";
 
 const Services = () => {
+  const t = useTranslations("services");
+
   return (
     <section
       id="services"
@@ -13,10 +16,12 @@ const Services = () => {
     >
       <div className="flex flex-col gap-8 items-center w-full">
         <div className="w-full flex flex-col items-center">
-          <Title text="Servicios" />
-          <Subtitle text="Potenciando Tu Éxito con Nuestros Servicios Especializados" />
+          <Title text={t("title")} />
+          <Subtitle text={t("subtitle")} />
         </div>
-        <ServicesCarousel />
+        <NextIntlClientProvider>
+          <ServicesCarousel />
+        </NextIntlClientProvider>
       </div>
       <div className="absolute pt-4 z-20">
         <div className="absolute w-[75px] h-full left-0 top-0 bg-gradient-to-r from-black to-transparent" />

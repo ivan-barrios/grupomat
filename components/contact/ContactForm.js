@@ -2,8 +2,6 @@
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-
-import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
@@ -15,6 +13,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "../ui/textarea";
+import { useState } from "react";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -29,7 +28,9 @@ const formSchema = z.object({
   }),
 });
 
-const ContactForm = () => {
+const ContactForm = ({ name, email, subject, message, send }) => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   // 1. Define your form.
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -42,10 +43,34 @@ const ContactForm = () => {
   });
 
   // 2. Define a submit handler.
-  function onSubmit(values) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  async function onSubmit(values) {
+    const data = {
+      name: values.name,
+      email: values.email,
+      subject: values.subject,
+      message: values.message,
+    };
+    const JSONdata = JSON.stringify(data);
+
+    const endpoint = "/api/send";
+
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSONdata,
+    };
+
+    const response = await fetch(endpoint, options);
+
+    if (response.status === 200) {
+      console.log("Message Sent.");
+      form.reset(defaultValues);
+      setFormSubmitted(true);
+    } else {
+      console.log("Message failed to send.");
+    }
   }
 
   return (
@@ -61,7 +86,7 @@ const ContactForm = () => {
             <FormItem className="w-full">
               <FormControl>
                 <Input
-                  placeholder="Name"
+                  placeholder={name}
                   {...field}
                   className="!text-white !bg-transparent rounded-[40px] px-6 md:!px-8 py-6 sm:!py-8 text-base sm:text-lg"
                 />
@@ -77,7 +102,7 @@ const ContactForm = () => {
             <FormItem className="w-full">
               <FormControl>
                 <Input
-                  placeholder="Email"
+                  placeholder={email}
                   {...field}
                   className="!text-white !bg-transparent rounded-[40px] px-6 md:!px-8 py-6 sm:!py-8 text-base sm:text-lg"
                 />
@@ -93,7 +118,7 @@ const ContactForm = () => {
             <FormItem className="w-full">
               <FormControl>
                 <Input
-                  placeholder="Asunto"
+                  placeholder={subject}
                   {...field}
                   className="!text-white !bg-transparent rounded-[40px] px-6 md:!px-8 py-6 sm:!py-8 text-base sm:text-lg"
                 />
@@ -109,7 +134,7 @@ const ContactForm = () => {
             <FormItem className="w-full">
               <FormControl>
                 <Textarea
-                  placeholder="Contanos algo..."
+                  placeholder={message}
                   {...field}
                   className="!text-white !bg-transparent rounded-[40px] h-[300px] px-6 md:!px-8 py-6 sm:!py-8 text-base sm:text-lg"
                 />
@@ -119,8 +144,13 @@ const ContactForm = () => {
           )}
         />
         <button type="submit" className="btn max-sm:!text-sm ">
-          Submit
+          {send}
         </button>
+        {formSubmitted && (
+          <p className="text-green-500 text-sm mt-2">
+            Se envio el email correctamente!
+          </p>
+        )}
       </form>
     </Form>
   );

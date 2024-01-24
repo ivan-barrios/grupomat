@@ -2,19 +2,23 @@ import Image from "next/image";
 import Link from "next/link";
 import abstract from "@/public/abstractHero.svg";
 
+import { useTranslations } from "next-intl";
+
 const Hero = () => {
+  const t = useTranslations("hero");
+
   return (
     <section className="mt-[80px] pt-[50px] sm:pt-[70px] lg:pt-[120px] pb-12 text-white w-full max-w-[1200px] flex flex-col justify-center items-center relative">
       <div className="flex flex-col items-center gap-6 relative">
         <h1 className="text-center font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl z-40">
-          Potenciamos tu
-          <br /> Marca Inmobiliaria
+          {t("title1")}
+          <br /> {t("title2")}
         </h1>
         <p className="text-center text-lg sm:text-xl lg:text-2xl z-40">
-          Soluciones y estrategias de marketing para Real Estate
+          {t("subtitle")}
         </p>
         <Link href="/#services" className="btn z-40">
-          EMPIEZA YA
+          {t("cta")}
         </Link>
         <Image
           src={abstract}

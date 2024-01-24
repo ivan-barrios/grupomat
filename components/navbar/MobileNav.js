@@ -14,8 +14,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import LanguageOption from "../LanguageOption";
 
-const MobileNav = ({ links }) => {
+const MobileNav = ({ links, locale }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -51,7 +52,7 @@ const MobileNav = ({ links }) => {
             href={link.href}
             className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center"
           >
-            {link.label}
+            {locale === "es" ? link.nombre : link.name}
           </Link>
         ))}
         <div
@@ -59,14 +60,18 @@ const MobileNav = ({ links }) => {
           className="uppercase text-2xl shadow-lg px-4 py-3 w-full text-center"
         >
           <DropdownMenu>
-            <DropdownMenuTrigger className="font-bold">
-              ES ^
+            <DropdownMenuTrigger className="font-bold uppercase">
+              {locale}
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuLabel>Lenguaje</DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Español</DropdownMenuItem>
-              <DropdownMenuItem>English</DropdownMenuItem>
+              <DropdownMenuItem>
+                <LanguageOption language="Español" willLocale="es" />
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <LanguageOption language="English" willLocale="en" />
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
@@ -74,7 +79,9 @@ const MobileNav = ({ links }) => {
           onClick={() => setMenuOpen(false)}
           className="font-semibold border-2 border-white py-2 px-4 rounded-[15px] mt-8 text-2xl"
         >
-          <Link href="/#contacto">Contactanos</Link>
+          <Link href="/#contacto">
+            {locale === "es" ? "Contactanos" : "Contact Us"}
+          </Link>
         </button>
         <div className="absolute bottom-0 w-full flex justify-center gap-4 py-8">
           <Link

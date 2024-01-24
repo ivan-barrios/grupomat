@@ -2,8 +2,11 @@ import React from "react";
 import Title from "../Title";
 import Subtitle from "../Subtitle";
 import TestimonialsCarousel from "./TestimonialsCarousel";
+import { NextIntlClientProvider, useTranslations } from "next-intl";
 
 const Testimonials = () => {
+  const t = useTranslations("testimonials");
+
   return (
     <section
       id="testimonials"
@@ -11,10 +14,12 @@ const Testimonials = () => {
     >
       <div className="w-full flex flex-col items-center gap-8">
         <div className="flex flex-col items-center">
-          <Title text="Testimonios" />
-          <Subtitle text="Voces que Avalan nuestra Excelencia" />
+          <Title text={t("title")} />
+          <Subtitle text={t("subtitle")} />
         </div>
-        <TestimonialsCarousel />
+        <NextIntlClientProvider>
+          <TestimonialsCarousel />
+        </NextIntlClientProvider>
       </div>
     </section>
   );
