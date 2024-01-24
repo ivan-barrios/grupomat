@@ -33,6 +33,7 @@ const Brands = async () => {
             alt="brand"
             width={120}
             height={80}
+            priority
             className="object-contain max-h-[80px]"
           />
         ))}
@@ -43,6 +44,7 @@ const Brands = async () => {
             alt="brand"
             width={120}
             height={80}
+            priority
             className="object-contain max-h-[80px]"
           />
         ))}
