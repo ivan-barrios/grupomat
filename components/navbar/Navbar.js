@@ -13,7 +13,7 @@ const Navbar = async () => {
     <nav className="fixed top-0 w-full flex justify-center px-[20px] md:px-[30px] bg-black z-50">
       <div className="max-w-[1200px] w-full flex justify-between items-center h-[80px] text-white">
         <Link href="/">
-          <Image src={logo} alt="Logo" width={150} height={80} />
+          <Image priority src={logo} alt="Logo" width={150} height={80} />
         </Link>
         <div className="">
           <MobileNav
