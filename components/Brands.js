@@ -25,7 +25,7 @@ const Brands = async () => {
       </p>
       <div className="bg-gradient-to-r from-black from-0% to-20%  to-transparent absolute left-0 h-full w-full z-40"></div>
       <div className="bg-gradient-to-l from-black from-0% to-20%  to-transparent absolute right-0 h-full w-full z-40"></div>
-      <div className="flex items-center gap-4 md:gap-[8rem] w-max animate-loop-scroll md:animate-loop-scrollmd h-[100px] bg-white">
+      <div className="flex items-center gap-4 md:gap-[8rem] w-max max-md:animate-loop-scroll md:animate-loop-scrollmd h-[100px] bg-white">
         {brands.map((brand, index) => (
           <Image
             key={index}

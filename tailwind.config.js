@@ -29,12 +29,24 @@ module.exports = {
       },
       keyframes: {
         "loop-scrollmd": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-50% - 4rem))" },
+          from: {
+            transform: "translateX(0)",
+            "-webkit-transform": "translateX(0)",
+          },
+          to: {
+            transform: "translateX(calc(-50% - 4rem))",
+            "-webkit-transform": "translateX(calc(-50% - 4rem))",
+          },
         },
         "loop-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-50% - 0.5rem))" },
+          from: {
+            transform: "translateX(0)",
+            "-webkit-transform": "translateX(0)",
+          },
+          to: {
+            transform: "translateX(calc(-50% - 0.5rem))",
+            "-webkit-transform": "translateX(calc(-50% - 0.5rem))",
+          },
         },
         "accordion-down": {
           from: { height: "0" },
