@@ -24,6 +24,7 @@ const Hero = async () => {
           {t("cta")}
         </Link>
         <Image
+          priority
           src={abstract}
           alt="Abstract Image"
           className="absolute -top-[30px] sm:-top-[40px] md:-top-[60px] lg:-top-[80px] z-10"

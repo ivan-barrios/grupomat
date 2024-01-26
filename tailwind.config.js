@@ -58,8 +58,8 @@ module.exports = {
         },
       },
       animation: {
-        "loop-scrollmd": "loop-scrollmd 20s linear infinite",
-        "loop-scroll": "loop-scroll 10s linear infinite",
+        "loop-scrollmd": "loop-scrollmd 40s linear infinite",
+        "loop-scroll": "loop-scroll 20s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
