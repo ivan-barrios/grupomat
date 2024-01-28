@@ -2,6 +2,7 @@ import manese from "@/public/testimonials/Manese.jpeg";
 import ba from "@/public/testimonials/b&a.jpeg";
 import frizco from "@/public/testimonials/frizco.jpeg";
 import mendozabr from "@/public/testimonials/mendozabr.jpeg";
+import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
   {
@@ -35,5 +36,13 @@ export const testimonials = [
     words:
       "Highly recommended for digital marketing if you want to grow your brand.",
     profilePicture: frizco,
+  },
+  {
+    name: "Juarez Propiedades",
+    palabras:
+      "Aumentamos las consultas y las visitas de manera considerable. Impacto super positivo en tan solo un mes de trabajo. Muy recomendable para trabajar en conjunto para la Comercializacion de desarrollos inmobiliarios.",
+    words:
+      "We increased inquiries and visits significantly. Super positive impact in just one month of work. Highly recommended for collaborating on the marketing of real estate developments.",
+    profilePicture: placeholder,
   },
 ];
