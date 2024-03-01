@@ -10,9 +10,9 @@ export const testimonials = [
   {
     name: "Carla Zubieta",
     palabras:
-      "Trabajar con Juli es desafiante. Me inspira a mejorar además de mi marca personal, mi negocio y el servicio que brindo a mis clientes. Comenzamos definiendo el público objetivo y cuál es mi propuesta de valor, eso enriqueció mucho el hecho de que trabaje de manera muy consciente. Además, cumple con la estructura de nuestra planificación y eso me ayuda muchísimo a generar hábitos que son positivos para el crecimiento de mi marca. Trabajar con él hizo que hoy esté captando el público que fuimos a buscar el 1er día. Escucha diferentes propuestas y propone en pos de ello. Lo recomiendo para trabajar al 100%!",
+      "Comenzamos definiendo el público objetivo y cuál es mi propuesta de valor, eso enriqueció mucho el hecho de que trabaje de manera muy consciente. Además, cumple con la estructura de nuestra planificación y eso me ayuda muchísimo a generar hábitos que son positivos para el crecimiento de mi marca. Trabajar con él hizo que hoy esté captando el público que fuimos a buscar el 1er día. Escucha diferentes propuestas y propone en pos de ello. Lo recomiendo para trabajar al 100%!",
     words:
-      "Working with Juli is challenging. He inspires me to improve not only my personal brand but also my business and the service I provide to my clients. We started by defining the target audience and what my value proposition is, which greatly enriched the fact that I work very consciously. Additionally, he adheres to the structure of our planning, which helps me tremendously in forming habits that are positive for the growth of my brand. Working with him has allowed me to capture the audience we set out to reach on the first day. He listens to different proposals and proposes accordingly. I recommend working with him 100%!",
+      "We started by defining the target audience and what my value proposition is, which greatly enriched the fact that I work very consciously. Additionally, he adheres to the structure of our planning, which helps me tremendously in forming habits that are positive for the growth of my brand. Working with him has allowed me to capture the audience we set out to reach on the first day. He listens to different proposals and proposes accordingly. I recommend working with him 100%!",
     profilePicture: zubieta,
   },
   {
