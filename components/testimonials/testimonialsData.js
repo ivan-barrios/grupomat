@@ -4,6 +4,9 @@ import ba from "@/public/testimonials/b&a.jpeg";
 import frizco from "@/public/testimonials/frizco.jpeg";
 import mendozabr from "@/public/testimonials/mendozabr.jpeg";
 import juarez from "@/public/testimonials/juarez.jpeg";
+import yesica from "@/public/testimonials/yesica.jpeg";
+import claudia from "@/public/testimonials/claudia-palomeque.jpeg";
+import patricio from "@/public/testimonials/patricio-gilly.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -14,6 +17,30 @@ export const testimonials = [
     words:
       "We started by defining the target audience and what my value proposition is, which greatly enriched the fact that I work very consciously. Additionally, he adheres to the structure of our planning, which helps me tremendously in forming habits that are positive for the growth of my brand. Working with him has allowed me to capture the audience we set out to reach on the first day. He listens to different proposals and proposes accordingly. I recommend working with him 100%!",
     profilePicture: zubieta,
+  },
+  {
+    name: "Yesica Venditti",
+    palabras:
+      "Tuve un montón de prelistings, tuve captaciones, asi que estoy super contenta con el servicio.",
+    words:
+      "I had a lot of prelistings, I got some listings, so I'm really happy with the service.",
+    profilePicture: yesica,
+  },
+  {
+    name: "Claudia Palomeque",
+    palabras:
+      "Feliz de estar trabajando hace un año y medio ya con Grupomat. Desarrollo mi profesión en el sector inmobiliario y estoy feliz! Tanto por la calidad del servicio, el compromiso, la eficiencia en la comunicación, y cómo han influenciado positivamente mi marca. Me han ayudado a bajar a redes lo que hacía tiempo proyectaba sin animarme. Demuestran profesionalismo, responsabilidad y conocimiento del rubro inmobiliario. Mi experiencia ha sido muy beneficiosa. Recomiendo ampliamente a cualquier profesional del sector que busque un servicio confiable y de alta calidad. Sigan creciendo!",
+    words:
+      "Happy to have been working with Grupomat for a year and a half now. I develop my profession in the real estate sector and I am very happy! Both for the quality of the service, the commitment, the efficiency in communication, and how they have positively influenced my brand. They have helped me bring to social media what I had been projecting for a long time without daring to do so. They demonstrate professionalism, responsibility, and knowledge of the real estate field. My experience has been very beneficial. I highly recommend them to any professional in the sector looking for a reliable and high-quality service. Keep growing!",
+    profilePicture: claudia,
+  },
+  {
+    name: "Patricio Gilly",
+    palabras:
+      "Quedo mucho mejor de lo que esperaba asi que lo recontrarecominedo. Y valoro muchísimo la atención de Juli, que me dio mucho seguimiento para que el proyecto termine en tiempo y forma. El trabajo es super profesional y te dan un seguimiento y un servicio que vale la pena contratar.",
+    words:
+      "It turned out much better than I expected, so I highly recommend it. I really appreciate Juli's attention, who followed up a lot to ensure the project was completed on time and properly. The work is super professional, and they provide follow-up and service that is definitely worth hiring.",
+    profilePicture: patricio,
   },
   {
     name: "Manuel Manese",
