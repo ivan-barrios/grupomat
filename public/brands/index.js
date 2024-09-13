@@ -5,10 +5,19 @@ import carlaZubieta from "./carla-zubieta.png";
 import claudia from "./claudia.png";
 import gc from "./grupo-concreto.PNG";
 import juarez from "./juarez.jpeg";
-import mm from "./manuelmanese.png";
 import massolorocha from "./massolo&rocha.png";
 import mendozabr from "./mendozabr.png";
 import perdriel from "./perdriel.png";
+import rodo from "./rodo.jpg";
+import nieves from "./nieves.jpg";
+import mati_rios from "./mati_rios.png";
+import mati_goñi from "./mati_goñi.png";
+import houseland from "./houseland.png";
+import xv from "./xv.jpg";
+import enriquez from "./enriquez.jpg";
+import ca from "./ca.png";
+import siete from "./siete.png";
+import inmo from "./inmo.png";
 
 export {
   ba,
@@ -18,8 +27,17 @@ export {
   claudia,
   gc,
   juarez,
-  mm,
   massolorocha,
   mendozabr,
   perdriel,
+  rodo,
+  nieves,
+  mati_rios,
+  mati_goñi,
+  enriquez,
+  houseland,
+  xv,
+  ca,
+  siete,
+  inmo,
 };

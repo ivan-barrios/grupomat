@@ -1,5 +1,5 @@
 import zubieta from "@/public/testimonials/zubieta.jpeg";
-import manese from "@/public/testimonials/Manese.jpeg";
+import mati from "@/public/testimonials/mati.jpeg";
 import ba from "@/public/testimonials/b&a.jpeg";
 import frizco from "@/public/testimonials/frizco.jpeg";
 import mendozabr from "@/public/testimonials/mendozabr.jpeg";
@@ -43,12 +43,12 @@ export const testimonials = [
     profilePicture: patricio,
   },
   {
-    name: "Manuel Manese",
+    name: "Matias Rios",
     palabras:
-      "Son un equipo bárbaro, muy responsable, muy dedicado, que planifican cada uno de los pasos, que van ajustando la estrategia en relación a cada uno de los objetivos que nos planteamos y me ha permitido posicionarme muy bien dentro del mercado inmobiliario de la ciudad de La Plata.",
+      "Tener una programación, ir subiendo contenido, que la gente me lo reconozca, es un antes y un después. Es interesante como uno generalmente está acostumbrado a que te lleguen clientes de cualquier lado y esto de las redes te permiten concentrarte en una zona y que las consultas te lleguen de esa zona.",
     words:
-      "They are a great team, very responsible, dedicated, planning each step, adjusting the strategy in relation to each of the objectives we set. It has allowed me to position myself very well in the real estate market of the city of La Plata.",
-    profilePicture: manese,
+      "Having a schedule, consistently uploading content, and getting recognized by people is a turning point. It's interesting how we're usually used to clients coming from anywhere, but social media allows you to focus on a specific area and receive inquiries from that zone.",
+    profilePicture: mati,
   },
   {
     name: "Barrios & Asociados",

@@ -6,7 +6,7 @@ const es = {
     cta: "Empieza ya",
   },
   brands: {
-    sentence: "Confiados Por Estas Empresas",
+    sentence: "Confiados Por Estas Marcas",
   },
   aboutus: {
     title: "Sobre Nosotros",

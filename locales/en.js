@@ -6,7 +6,7 @@ const en = {
     cta: "Get Started",
   },
   brands: {
-    sentence: "Trusted by these companies",
+    sentence: "Trusted by these brands",
   },
   aboutus: {
     title: "About Us",
