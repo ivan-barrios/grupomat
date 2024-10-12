@@ -21,6 +21,22 @@ export const testimonials = [
     profilePicture: zubieta,
   },
   {
+    name: "Nieves Pruyas",
+    palabras:
+      "Muchísimo movimiento. Yo venía de unos meses de bastante quietud y esto me resultó, fueron 3 meses donde las campañas tanto de captación como las de propiedades trajeron mucho movimiento, creció muchísimo la base de datos. Súper cálidos y profesional, me gusta la actitud de proponer, de siempre tener buena predisposición.",
+    words:
+      "A lot of movement. I was coming from a few months of relative calm, and this was a big change. The last three months, both the acquisition campaigns and the property ones brought a lot of activity, and the database grew significantly. Super warm and professional, I really like the attitude of making suggestions and always having a positive disposition.",
+    profilePicture: nieves,
+  },
+  {
+    name: "Franco Prado",
+    palabras:
+      "La propuesta que me trajeron desde el primer momento me pareció de muy buena calidad, no me habían presentando algo igual. Se están viendo los frutos y la planificación que me dieron es muy buena. Bastante llegada de consultas de venta, para hacer tasaciones, la verdad que muy bien.",
+    words:
+      "The proposal they brought me from the very beginning seemed to be of very high quality, I hadn’t been presented with anything like it before. We're starting to see the results, and the planning they provided is excellent. There's been a significant increase in sales inquiries and appraisal requests, honestly, very good.",
+    profilePicture: francoprado,
+  },
+  {
     name: "Yesica Venditti",
     palabras:
       "Tuve un montón de prelistings, tuve captaciones, asi que estoy super contenta con el servicio.",
@@ -44,22 +60,7 @@ export const testimonials = [
       "It turned out much better than I expected, so I highly recommend it. I really appreciate Juli's attention, who followed up a lot to ensure the project was completed on time and properly. The work is super professional, and they provide follow-up and service that is definitely worth hiring.",
     profilePicture: patricio,
   },
-  {
-    name: "Nieves Pruyas",
-    palabras:
-      "Muchísimo movimiento. Yo venía de unos meses de bastante quietud y esto me resultó, fueron 3 meses donde las campañas tanto de captación como las de propiedades trajeron mucho movimiento, creció muchísimo la base de datos. Súper cálidos y profesional, me gusta la actitud de proponer, de siempre tener buena predisposición.",
-    words:
-      "A lot of movement. I was coming from a few months of relative calm, and this was a big change. The last three months, both the acquisition campaigns and the property ones brought a lot of activity, and the database grew significantly. Super warm and professional, I really like the attitude of making suggestions and always having a positive disposition.",
-    profilePicture: nieves,
-  },
-  {
-    name: "Franco Prado",
-    palabras:
-      "La propuesta que me trajeron desde el primer momento me pareció de muy buena calidad, no me habían presentando algo igual. Se están viendo los frutos y la planificación que me dieron es muy buena. Bastante llegada de consultas de venta, para hacer tasaciones, la verdad que muy bien.",
-    words:
-      "The proposal they brought me from the very beginning seemed to be of very high quality, I hadn’t been presented with anything like it before. We're starting to see the results, and the planning they provided is excellent. There's been a significant increase in sales inquiries and appraisal requests, honestly, very good.",
-    profilePicture: francoprado,
-  },
+
   {
     name: "Matias Rios",
     palabras:
