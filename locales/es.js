@@ -10,7 +10,7 @@ const es = {
   },
   aboutus: {
     title: "Sobre Nosotros",
-    subtitle: "¿Que hace grupomat?",
+    subtitle: "¿Qué hace grupomat?",
     content:
       "Implementamos soluciones y estrategias de marketing para agentes inmobiliarios, inmobiliarias y desarrolladoras, con el fin de hacer realidad sus objetivos de venta, basándonos en recursos como Social Media, Paid Media, Branding, Web Development, Web Analytics, Growth Marketing y Storytelling.",
   },

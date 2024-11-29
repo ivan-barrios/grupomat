@@ -9,6 +9,8 @@ import claudia from "@/public/testimonials/claudia-palomeque.jpeg";
 import patricio from "@/public/testimonials/patricio-gilly.jpeg";
 import nieves from "@/public/testimonials/nieves-pruyas.jpeg";
 import francoprado from "@/public/testimonials/francoprado.jpeg";
+import rodo from "@/public/testimonials/rodo.jpeg";
+import gaston from "@/public/testimonials/gaston.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -19,6 +21,14 @@ export const testimonials = [
     words:
       "We started by defining the target audience and what my value proposition is, which greatly enriched the fact that I work very consciously. Additionally, he adheres to the structure of our planning, which helps me tremendously in forming habits that are positive for the growth of my brand. Working with him has allowed me to capture the audience we set out to reach on the first day. He listens to different proposals and proposes accordingly. I recommend working with him 100%!",
     profilePicture: zubieta,
+  },
+  {
+    name: "Rodo Negocios",
+    palabras:
+      "Ha sido un cambio tremendo, hemos tenido un antes y un después en tema de captaciones, de ventas, de todo, la verdad que nos organizaste. Acá en Uruguay, Artigas hemos hecho una revolución en el mercado, hay gente de otros rubros que ahora están haciendo lo mismo. El primer mes captamos más de 20-30 propiedades e hicimos 4 ventas.",
+    words:
+      "It has been a tremendous change; we've experienced a before and after in terms of lead generation, sales—everything, really. You truly organized us. Here in Artigas, Uruguay, we've revolutionized the market. People from other industries are now doing the same. In the first month, we listed more than 20-30 properties and made 4 sales.",
+    profilePicture: rodo,
   },
   {
     name: "Nieves Pruyas",
@@ -43,6 +53,14 @@ export const testimonials = [
     words:
       "I had a lot of prelistings, I got some listings, so I'm really happy with the service.",
     profilePicture: yesica,
+  },
+  {
+    name: "Gastón Fusco",
+    palabras:
+      "La cantidad de contactos que llegan por las plataformas es impresionante, se abren un montón de oportunidades. Destaco la paciencia, el seguimiento y la buena onda.",
+    words:
+      "The number of leads coming through the platforms is impressive, opening up a ton of opportunities. I really appreciate the patience, follow-up, and positive attitude.",
+    profilePicture: gaston,
   },
   {
     name: "Claudia Palomeque",
