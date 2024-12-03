@@ -18,6 +18,8 @@ import enriquez from "./enriquez.jpg";
 import ca from "./ca.png";
 import siete from "./siete.png";
 import inmo from "./inmo.png";
+import camifede from "./camifede.png";
+import teamali from "./teamali.png";
 
 export {
   ba,
@@ -40,4 +42,6 @@ export {
   ca,
   siete,
   inmo,
+  teamali,
+  camifede,
 };

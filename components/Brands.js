@@ -20,6 +20,8 @@ import {
   siete,
   houseland,
   inmo,
+  camifede,
+  teamali,
 } from "@/public/brands/index.js";
 
 import { getScopedI18n } from "@/locales/server";
@@ -85,4 +87,6 @@ const brands = [
   siete,
   houseland,
   inmo,
+  camifede,
+  teamali,
 ];

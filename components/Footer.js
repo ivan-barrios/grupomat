@@ -19,7 +19,7 @@ const Footer = async () => {
         <p className="text-center">{t("text")}</p>
         <div className="flex gap-4 items-center">
           <Link
-            href="https://www.instagram.com/grupomat.co/"
+            href="https://www.instagram.com/julianrobert.gm/"
             target="_blank"
             className="hover:scale-[1.1] transition-all duration-100"
           >
