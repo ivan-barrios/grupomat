@@ -71,7 +71,7 @@ const MobileNav = ({ links, us, services, testimonials, contact }) => {
 
         <div className="absolute bottom-0 w-full flex justify-center gap-4 py-8">
           <Link
-            href="https://www.instagram.com/grupomatagency/"
+            href="https://www.instagram.com/julianrobert.gm/"
             target="_blank"
           >
             <Image
