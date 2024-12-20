@@ -13,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className="scroll-smooth">
+      <head>
+        <title>Grupo Mat - Potenciamos tu Marca Inmobiliaria</title>
+      </head>
       <body className="font-nexa bg-black">
         {children}
         <Toaster />
