@@ -2,7 +2,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
-  title: "grupomat",
+  title: "Grupo Mat - Potenciamos tu Marca Inmobiliaria",
   description: "Soluciones y estrategias de marketing para Real Estate.",
   "og:url": "grupomatagency.com",
   "og:image":
