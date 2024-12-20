@@ -1,4 +1,5 @@
 import "./globals.css";
+import Head from "next/head";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
@@ -13,9 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <head>
+      <Head>
         <title>Grupo Mat - Potenciamos tu Marca Inmobiliaria</title>
-      </head>
+      </Head>
       <body className="font-nexa bg-black">
         {children}
         <Toaster />
