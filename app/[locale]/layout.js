@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
-  title: "Grupo Mat - Potenciamos tu Marca Inmobiliaria",
+  title: "Grupo Mat | Potenciamos tu Marca Inmobiliaria",
   description: "Soluciones y estrategias de marketing para Real Estate.",
   "og:url": "grupomatagency.com",
   "og:image":
@@ -14,9 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className="scroll-smooth">
-      <Head>
-        <title>Grupo Mat - Potenciamos tu Marca Inmobiliaria</title>
-      </Head>
+      <head>
+        <title>Grupo Mat | Potenciamos tu Marca Inmobiliaria</title>
+      </head>
       <body className="font-nexa bg-black">
         {children}
         <Toaster />
