@@ -11,6 +11,8 @@ import nieves from "@/public/testimonials/nieves-pruyas.jpeg";
 import francoprado from "@/public/testimonials/francoprado.jpeg";
 import rodo from "@/public/testimonials/rodo.jpeg";
 import gaston from "@/public/testimonials/gaston.jpeg";
+import andres_ali from "@/public/testimonials/andres-ali.jpeg";
+import seba_casti from "@/public/testimonials/seba-casti.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -29,6 +31,14 @@ export const testimonials = [
     words:
       "It has been a tremendous change; we've experienced a before and after in terms of lead generation, sales—everything, really. You truly organized us. Here in Artigas, Uruguay, we've revolutionized the market. People from other industries are now doing the same. In the first month, we listed more than 20-30 properties and made 4 sales.",
     profilePicture: rodo,
+  },
+  {
+    name: "Andrés Alí",
+    palabras:
+      "Gracias Juli por tu dedicación! Te elegimos a vos y terminaste vos eligiendonos a nosotros, eso no tiene precio! Por valor, por disfrute, por seguir creciendo juntos.. Hermoso embudo de cientos de nuevos contactos, captaciones, búsquedas y gran posicionamiento para seguir diferenciándonos ! Gracias!",
+    words:
+      "Thank you, Juli, for your dedication! We chose you, and in the end, you chose us – that’s priceless! For the value, the joy, and for continuing to grow together... A beautiful funnel of hundreds of new contacts, listings, searches, and great positioning to keep setting ourselves apart! Thank you!",
+    profilePicture: andres_ali,
   },
   {
     name: "Nieves Pruyas",
@@ -86,6 +96,14 @@ export const testimonials = [
     words:
       "Having a schedule, consistently uploading content, and getting recognized by people is a turning point. It's interesting how we're usually used to clients coming from anywhere, but social media allows you to focus on a specific area and receive inquiries from that zone.",
     profilePicture: mati,
+  },
+  {
+    name: "Sebastián Castiglionesi",
+    palabras:
+      "Muy conforme con como trabajan. Me ayudaron a comenzar mi camino en el marketing inmobiliario con resultados excelentes y mucho aprendizaje.",
+    words:
+      "Very satisfied with how they work. They helped me start my journey in real estate marketing with excellent results and a lot of learning.",
+    profilePicture: seba_casti,
   },
   {
     name: "Barrios & Asociados",
