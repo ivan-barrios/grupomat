@@ -18,24 +18,6 @@ export const services = [
     icon: instagram,
   },
   {
-    title: "Web Design",
-    description:
-      "We develop your website, landing page, or presentation adaptable to all platforms.",
-    titulo: "Diseño Web",
-    descripcion:
-      "Desarrollamos tu sitio web, landing page o carta de presentación adaptables a todas las plataformas.",
-    icon: code,
-  },
-  {
-    title: "Google Ads",
-    description:
-      "We ensure your company has a proper presence on the Google search engine to reach potential customers and receive inquiries.",
-    titulo: "Google Ads",
-    descripcion:
-      "Nos aseguramos de que tu empresa tenga una correcta presencia en el buscador de Google con el objetivo de llegar a clientes potenciales y recibir consultas.",
-    icon: googleads,
-  },
-  {
     title: "Meta Ads",
     description:
       "We develop, plan, and manage paid ads on Facebook and Instagram. We work with prospecting and retargeting campaigns.",
@@ -53,6 +35,25 @@ export const services = [
       "Creamos una identidad e imagen única para tu marca. Trabajamos en el diseño, la identidad y la comunicación tanto para tu empresa como para un desarrollo en particular.",
     icon: art,
   },
+  {
+    title: "Web Design",
+    description:
+      "We develop your website, landing page, or presentation adaptable to all platforms.",
+    titulo: "Diseño Web",
+    descripcion:
+      "Desarrollamos tu sitio web, landing page o carta de presentación adaptables a todas las plataformas.",
+    icon: code,
+  },
+  {
+    title: "Google Ads",
+    description:
+      "We ensure your company has a proper presence on the Google search engine to reach potential customers and receive inquiries.",
+    titulo: "Google Ads",
+    descripcion:
+      "Nos aseguramos de que tu empresa tenga una correcta presencia en el buscador de Google con el objetivo de llegar a clientes potenciales y recibir consultas.",
+    icon: googleads,
+  },
+
   {
     title: "Consultancy",
     description:
