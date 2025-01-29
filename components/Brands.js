@@ -22,6 +22,8 @@ import {
   inmo,
   camifede,
   teamali,
+  solari,
+  rentahouse,
 } from "@/public/brands/index.js";
 
 import { getScopedI18n } from "@/locales/server";
@@ -69,6 +71,8 @@ export default Brands;
 const brands = [
   ba,
   bgb,
+  solari,
+  rentahouse,
   century,
   carlaZubieta,
   claudia,

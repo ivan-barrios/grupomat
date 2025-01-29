@@ -20,6 +20,8 @@ import siete from "./siete.png";
 import inmo from "./inmo.png";
 import camifede from "./camifede.png";
 import teamali from "./teamali.png";
+import solari from "./solari.jpeg";
+import rentahouse from "./rent-a-house.png";
 
 export {
   ba,
@@ -44,4 +46,6 @@ export {
   inmo,
   teamali,
   camifede,
+  solari,
+  rentahouse,
 };
