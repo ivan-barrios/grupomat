@@ -13,6 +13,8 @@ import rodo from "@/public/testimonials/rodo.jpeg";
 import gaston from "@/public/testimonials/gaston.jpeg";
 import andres_ali from "@/public/testimonials/andres-ali.jpeg";
 import seba_casti from "@/public/testimonials/seba-casti.jpeg";
+import camilafederica from "@/public/testimonials/camila-federica.jpeg";
+import soledadthomas from "@/public/testimonials/soledad-thomas.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -47,6 +49,22 @@ export const testimonials = [
     words:
       "A lot of movement. I was coming from a few months of relative calm, and this was a big change. The last three months, both the acquisition campaigns and the property ones brought a lot of activity, and the database grew significantly. Super warm and professional, I really like the attitude of making suggestions and always having a positive disposition.",
     profilePicture: nieves,
+  },
+  {
+    name: "Camila Federica",
+    palabras:
+      "Las tasaciones me crecieron un montón, tengo un montón de capturas en este poco plazo y las visitas también, tengo todas las semanas y antes había semanas que no tenía ninguna. Destaco la atención, la constancia y la paciencia.",
+    words:
+      "My appraisals have grown a lot, I’ve had many listings in such a short time, and the visits have also increased—I now have them every week, whereas before there were weeks without any. I appreciate the attention, consistency, and patience.",
+    profilePicture: camilafederica,
+  },
+  {
+    name: "Soledad Thomas",
+    palabras:
+      "El impacto fue totalmente positivo, aprendí a manejar mejor el seguimiento y las respuestas a dar. Después de 3 meses de trabajo realmente se generó muchísimas consultas, se generaron captaciones, consultas sobre esas captaciones, se generaron ventas, el resultado fue excelente. Compromiso, excelencia y comunicación.",
+    words:
+      "The impact was completely positive; I learned to better manage follow-ups and how to respond effectively. After 3 months of work, it generated a significant number of inquiries, new listings, inquiries about those listings, and even sales. The result was excellent. Commitment, excellence, and communication.",
+    profilePicture: soledadthomas,
   },
   {
     name: "Franco Prado",
