@@ -22,6 +22,10 @@ import camifede from "./camifede.png";
 import teamali from "./teamali.png";
 import solari from "./solari.jpeg";
 import rentahouse from "./rent-a-house.png";
+import anexa from "./anexa.jpg";
+import rambla from "./rambla.png";
+import puebla from "./puebla.png";
+import nicofleisman from "./nicofleisman.png";
 
 export {
   ba,
@@ -48,4 +52,8 @@ export {
   camifede,
   solari,
   rentahouse,
+  anexa,
+  rambla,
+  puebla,
+  nicofleisman,
 };

@@ -24,6 +24,10 @@ import {
   teamali,
   solari,
   rentahouse,
+  anexa,
+  nicofleisman,
+  puebla,
+  rambla,
 } from "@/public/brands/index.js";
 
 import { getScopedI18n } from "@/locales/server";
@@ -69,8 +73,12 @@ const Brands = async () => {
 export default Brands;
 
 const brands = [
+  nicofleisman,
+  puebla,
+  rambla,
   ba,
   bgb,
+  anexa,
   solari,
   rentahouse,
   century,
