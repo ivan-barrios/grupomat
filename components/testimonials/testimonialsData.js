@@ -15,6 +15,9 @@ import andres_ali from "@/public/testimonials/andres-ali.jpeg";
 import seba_casti from "@/public/testimonials/seba-casti.jpeg";
 import camilafederica from "@/public/testimonials/camila-federica.jpeg";
 import soledadthomas from "@/public/testimonials/soledad-thomas.jpeg";
+import houseland from "@/public/testimonials/houseland.jpeg";
+import michal from "@/public/testimonials/michal.jpeg";
+import solari from "@/public/testimonials/solari.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -49,6 +52,14 @@ export const testimonials = [
     words:
       "A lot of movement. I was coming from a few months of relative calm, and this was a big change. The last three months, both the acquisition campaigns and the property ones brought a lot of activity, and the database grew significantly. Super warm and professional, I really like the attitude of making suggestions and always having a positive disposition.",
     profilePicture: nieves,
+  },
+  {
+    name: "Houseland Propiedades",
+    palabras:
+      "Tuvimos re buenos resultados, empecé a tener un caudal de contactos al cual no estaba acostumbrada. Es tanta la gente que contacta y clientes calificados que te tenés que empezar a organizar diferente porque realmente funciona el embudo.",
+    words:
+      "We had really good results — I started getting a flow of contacts I wasn’t used to. There are so many people reaching out, including qualified clients, that you actually have to start organizing yourself differently because the funnel really works.",
+    profilePicture: houseland,
   },
   {
     name: "Camila Federica",
@@ -97,6 +108,22 @@ export const testimonials = [
     words:
       "Happy to have been working with Grupomat for a year and a half now. I develop my profession in the real estate sector and I am very happy! Both for the quality of the service, the commitment, the efficiency in communication, and how they have positively influenced my brand. They have helped me bring to social media what I had been projecting for a long time without daring to do so. They demonstrate professionalism, responsibility, and knowledge of the real estate field. My experience has been very beneficial. I highly recommend them to any professional in the sector looking for a reliable and high-quality service. Keep growing!",
     profilePicture: claudia,
+  },
+  {
+    name: "Solari Propiedades",
+    palabras:
+      "Muy satisfecho y muy contento. Se ordenó mi cabeza y en general todo el proceso en la inmobiliaria. Y a nivel de los leads hay muchos más contactos, tengo una proporción en algunas propiedades en 1/20 en relación a los portales.",
+    words:
+      "Very satisfied and very happy. Everything became clearer in my mind and overall in the real estate process. And in terms of leads, there are many more contacts — for some properties, I have a ratio of 1/20 compared to the listing portals.",
+    profilePicture: solari,
+  },
+  {
+    name: "Michal Morris",
+    palabras:
+      "Todo excelente, en lo que llevo trabajando solo, comparado lo que llevo trabajando con usted en nivel de captaciones ha sido increíble. Lo que encontré es que lo vendedores me buscarán a mí, para mí eso es lo ideal.",
+    words:
+      "Everything has been excellent. Compared to the time I’ve been working alone, the results I’ve achieved while working with you in terms of property acquisitions have been incredible. What I’ve found is that sellers are now the ones reaching out to me — and for me, that’s the ideal scenario.",
+    profilePicture: michal,
   },
   {
     name: "Patricio Gilly",
