@@ -12,7 +12,7 @@ const es = {
     title: "Sobre Nosotros",
     subtitle: "¿Qué hace grupomat?",
     content:
-      "Implementamos soluciones y estrategias de marketing para agentes inmobiliarios, inmobiliarias y desarrolladoras, con el fin de hacer realidad sus objetivos de venta, basándonos en recursos como Social Media, Paid Media, Branding, Web Development, Web Analytics, Growth Marketing y Storytelling.",
+      "Impulsamos el crecimiento de inmobiliarias y agentes a través de estrategias de marketing integradas que combinan sistemas probados, campañas digitales y posicionamiento de marca. Nuestro enfoque se basa en procesos claros y medibles, integrando contenido orgánico, paid media, branding estratégico, automatización comercial y analítica para transformar la captación y venta de inmuebles en un proceso profesional, constante y escalable.",
   },
   services: {
     title: "SERVICIOS",

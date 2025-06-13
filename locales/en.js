@@ -12,7 +12,7 @@ const en = {
     title: "About Us",
     subtitle: "What does GrupoMat do?",
     content:
-      "We implement marketing solutions and strategies for real estate agents, agencies, and developers, aiming to achieve their sales goals. We leverage resources such as Social Media, Paid Media, Branding, Web Development, Web Analytics, Growth Marketing, and Storytelling.",
+      "We drive the growth of real estate agencies and agents through integrated marketing strategies that combine proven systems, digital campaigns, and brand positioning. Our approach is based on clear, measurable processes, integrating organic content, paid media, strategic branding, sales automation, and analytics to transform property acquisition and sales into a professional, consistent, and scalable process.",
   },
   services: {
     title: "SERVICES",

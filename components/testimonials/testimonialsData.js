@@ -18,6 +18,8 @@ import soledadthomas from "@/public/testimonials/soledad-thomas.jpeg";
 import houseland from "@/public/testimonials/houseland.jpeg";
 import michal from "@/public/testimonials/michal.jpeg";
 import solari from "@/public/testimonials/solari.jpeg";
+import nahuel from "@/public/testimonials/nahuel-arture.jpeg";
+import franco from "@/public/testimonials/fran-moreti.jpeg";
 import placeholder from "@/public/testimonials/placeholder.png";
 
 export const testimonials = [
@@ -60,6 +62,22 @@ export const testimonials = [
     words:
       "We had really good results — I started getting a flow of contacts I wasn’t used to. There are so many people reaching out, including qualified clients, that you actually have to start organizing yourself differently because the funnel really works.",
     profilePicture: houseland,
+  },
+  {
+    name: "Nuahuel Arture",
+    palabras:
+      "Tuve un excelente experiencia con Julián. Me ayudó mucho a mejorar mis captaciones y trabajo de marketing como agente inmobiliario. Predispuesto en todo momento, amable, comprometido y con un seguimiento que es destacable. Recomendable al cien por ciento!",
+    words:
+      "I had an excellent experience with Julián. He helped me a lot in improving my lead generation and marketing work as a real estate agent. Always willing to help, kind, committed, and with outstanding follow-up. 100% recommended!",
+    profilePicture: nahuel,
+  },
+  {
+    name: "Franco Moreti",
+    palabras:
+      "Gracias Julian por toda la información compartida. Aprendimos a armar las campañas en Meta y a encender nuestro los motores de la generación de contactos para obtener más visitas de tasación, encargos de venta y cierres. Además vimos el diseño de nuestra marca personal y como el buen desarrollo de un buyer persona nos puede llevar a encontrar nuestro nicho.Servicio recomendable!",
+    words:
+      "Thank you, Julián, for all the knowledge you shared. We learned how to build campaigns on Meta and kickstart our lead generation engines to get more appraisal visits, listing opportunities, and closed deals. We also worked on the design of our personal brand and saw how a well-developed buyer persona can help us find our niche. Highly recommended service!",
+    profilePicture: franco,
   },
   {
     name: "Camila Federica",
@@ -118,7 +136,7 @@ export const testimonials = [
     profilePicture: solari,
   },
   {
-    name: "Michal Morris",
+    name: "Michael Morris",
     palabras:
       "Todo excelente, en lo que llevo trabajando solo, comparado lo que llevo trabajando con usted en nivel de captaciones ha sido increíble. Lo que encontré es que lo vendedores me buscarán a mí, para mí eso es lo ideal.",
     words:
